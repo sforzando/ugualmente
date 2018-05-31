@@ -31,7 +31,7 @@ function createWindow() {
   mainWindow.loadURL(settings.url);
   mainWindow.webContents.on('did-finish-load', () => {
     mainWindow.webContents.insertCSS(
-      'html,body{ cursor: none;}::-webkit-scrollbar {display: none;}'
+      'html,body{cursor: none;}::-webkit-scrollbar {display: none;}'
     );
   });
 
