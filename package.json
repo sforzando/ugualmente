@@ -25,7 +25,11 @@
     "type": "git",
     "url": "git+https://github.com/sforzando/ugualmente.git"
   },
-  "keywords": ["Electron", "YouTube", "typescript"],
+  "keywords": [
+    "Electron",
+    "YouTube",
+    "typescript"
+  ],
   "author": "sforzando LLC.",
   "license": "MIT",
   "devDependencies": {
